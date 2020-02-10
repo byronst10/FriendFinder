@@ -2,7 +2,7 @@
 
 **Description**
 <br>
-This is a compatibility-based "FriendFinder" application, using characters from the TV show, Firefly. I found the default questions and quiz to be a bit too generic for my liking, so I changed them up a bit. The survey in the app takes in user results, and then compares their submitted answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+This is a compatibility-based "FriendFinder" application, using characters from the TV show, Firefly. I found the default questions from the example in GitLab to be a bit too generic for my liking, so I changed them up a bit. The survey in the app takes in user results, and then compares their submitted answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
 <br>
 **Development notes:**
