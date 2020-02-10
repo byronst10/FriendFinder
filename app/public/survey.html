@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FriendFinder</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome Glyphicons -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="Mntitle"><h1>Date one of the crew members of the Serenity!</h1></div>
+        <img src="https://cdn1.thr.com/sites/default/files/imagecache/768x433/2012/05/firefly_cast.jpg" class="img-rounded" alt="image">
+        <hr />
+        <h2 class="Mntitle">
+            <p>
+                <br>
+          (for the love of God, don't get Janye, you will regret it
+            </br>
+          --Wash)
+        </h2>
+      </div>
+
+      <h2>Survey Questions</h2>
+      <hr />
+      <h3><strong>About You</strong></h3>
+      <h4>Name (Required)</h4>
+      <input type="text" name="" id="name" class="form-control" required />
+      <h4>Link to photo (Required)</h4>
+      <input type="text" name="" id="photo" class="form-control" required />
+      <hr />
+
+      <h3><strong>Question 1</strong></h3>
+      <h4>On a scale of 1 to 5, how mischeveious are you?</h4>
+      <select data-placeholder="" class="chosen-select" id="q1">
+        <option value=""></option>
+        <option value="1">1 (I'm a choir boy/nun)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5" selected>5 (Trouble is my middle name)</option>
+      </select>
+
+      <h3><strong>Question 2</strong></h3>
+      <h4>Which shindig would you want to attend?</h4>
+      <select data-placeholder="" class="chosen-select" id="q2">
+        <option value=""></option>
+        <option value="1">1 (A Masquerade)</option>
+        <option value="2">2 (A murder/mystery party)</option>
+        <option value="3" selected>3 (A wine and cheese soiree)</option>
+        <option value="4">4 (Anything open bar)</option>
+        <option value="5">5 (Anything rated R)</option>
+      </select>
+
+      <h3><strong>Question 3</strong></h3>
+      <h4>You believe that mercy is the mark of...</h4>
+      <select data-placeholder="" class="chosen-select" id="q3">
+        <option value=""></option>
+        <option value="1">1 (A great man)</option>
+        <option value="2">2 (A forgiving man)</option>
+        <option value="3">3 (A passive man)</option>
+        <option value="4" selected>4 (A broken man)</option>
+        <option value="5">5 (A dead man)</option>
+      </select>
+
+      <h3><strong>Question 4</strong></h3>
+      <h4>Quick, reavers are attacking! What will you do?</h4>
+      <select data-placeholder="" class="chosen-select" id="q4">
+        <option value=""></option>
+        <option value="1" selected>1 (Grab my weapon)</option>
+        <option value="2">2 (Hold onto my loved ones)</option>
+        <option value="3">3 (Pray)</option>
+        <option value="4">4 (Eject myself out of the closest air-lock)</option>
+        <option value="5">5 (Self-destruct the ship)</option>
+      </select>
+
+      <h3><strong>Question 5</strong></h3>
+      <h4>Which item would you like to wear right now?</h4>
+      <select data-placeholder="" class="chosen-select" id="q5">
+        <option value=""></option>
+        <option value="1">1 (Suspenders)</option>
+        <option value="2">2 (Kimono)</option>
+        <option value="3">3 (Goofy hat)</option>
+        <option value="4" selected>4 (Sunglasses)</option>
+        <option value="5">5 (Nothing)</option>
+      </select>
+
+      <h3><strong>Question 6</strong></h3>
+      <h4>How often do you follow through on what you say you will do?</h4>
+      <select data-placeholder="" class="chosen-select" id="q6">
+        <option value=""></option>
+        <option value="1">1 (Nope!)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5" selected>5 (Regularly)</option>
+      </select>
+
+      <h3><strong>Question 7</strong></h3>
+      <h4>Congrats! You have just accomplished something impossible. How does that make you feel?</h4>
+      <select data-placeholder="" class="chosen-select" id="q7">
+        <option value=""></option>
+        <option value="1">1 (Mighty lucky)</option>
+        <option value="2" selected>2 (Mighty foolish)</option>
+        <option value="3">3 (Mighty brilliant)</option>
+        <option value="4">4 (Mighty blessed)</option>
+        <option value="5">5 (Mighty indifferent)</option>
+      </select>
+
+      <h3><strong>Question 8</strong></h3>
+      <h4>Which d'you reckon would be the best in the 'verse?</h4>
+      <select data-placeholder="" class="chosen-select" id="q8">
+        <option value=""></option>
+        <option value="1">1 (To be loved)</option>
+        <option value="2">2 (To be feared)</option>
+        <option value="3">3 (To be remembered)</option>
+        <option value="4" selected>4 (To be left alone)</option>
+        <option value="5">5 (A little bit of everything in this list)</option>
+      </select>
+
+      <h3><strong>Question 9</strong></h3>
+      <h4>What kinds of things are most likely to make you bust a gut?</h4>
+      <select data-placeholder="" class="chosen-select" id="q9">
+        <option value=""></option>
+        <option value="1">1 (Somethin' crass or gross like)</option>
+        <option value="2">2 (Somethin' witty and whip sharp)</option>
+        <option value="3">3 (Seein' someone fall down always does it for me)</option>
+        <option value="4" selected>4 (Seein' something weird and ironic)</option>
+        <option value="5">5 (That super dry sort of humor)</option>
+      </select>
+
+      <h3><strong>Question 10</strong></h3>
+      <h4>Are you a hugger?</h4>
+      <select data-placeholder="" class="chosen-select" id="q10">
+        <option value=""></option>
+        <option value="1">1 (Hugs tend to be emotional experiences when I'm involved)</option>
+        <option value="2">2 (Sometimes people don't realize how much I love hugs)</option>
+        <option value="3">3 (I'd like to go on the record as not a hugger)</option>
+        <option value="4" selected>4 (How cute is the huggee?)</option>
+        <option value="5">5 (Only group hugs, or no hugs at all)</option>
+      </select>
+      <br />
+      <br />
+      <button
+        type="submit"
+        class="btn btn-primary btn-lg btn-block"
+        id="submit"
+      >
+        <i class="fa fa-check-circle" aria-hidden="true"></i> Submit
+      </button>
+      <br />
+      <br />
+
+    </div>
+    <div id="resultsModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+            <h2 class="modal-title"><strong>Best Match</strong></h2>
+          </div>
+
+          <div class="modal-body">
+            <h2 id="matchName"></h2>
+            <img
+              id="matchImg"
+              src="https://via.placeholder.com/400x400"
+              alt="Placeholder image in case user pic doesn't show"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $("#submit").on("click", function() {
+        function validateForm() {
+          var isValid = true;
+          $(".form-control").each(function() {
+            if ($(this).val() === "") isValid = false;
+          });
+          $(".chosen-select").each(function() {
+            if ($(this).val() === "") isValid = false;
+          });
+          return isValid;
+        }
+        if (validateForm() == true) {
+          var userData = {
+            name: $("#name").val(),
+            photo: $("#photo").val(),
+            scores: [
+              $("#q1").val(),
+              $("#q2").val(),
+              $("#q3").val(),
+              $("#q4").val(),
+              $("#q5").val(),
+              $("#q6").val(),
+              $("#q7").val(),
+              $("#q8").val(),
+              $("#q9").val(),
+              $("#q10").val()
+            ]
+          };
+          var currentURL = window.location.origin;
+          $.post(currentURL + "/api/friends", userData, function(data) {
+            $("#matchName").text(data.name);
+            $("#matchImg").attr("src", data.photo);
+
+            $("#resultsModal").modal("toggle");
+          });
+        } else {
+          alert("Please answer all questions before submitting!");
+        }
+        return false;
+      });
+    </script>
+  </body>
+</html>
