@@ -33,7 +33,7 @@ var friends = [
     },
 
     {
-        name: "Shepard Book",
+        name: "Shepherd Book",
         photo:
         "https://i.imgur.com/5cFiqvV.gif",
         scores: [4, 3, 4, 2, 4, 3, 5, 3, 5, 4]
